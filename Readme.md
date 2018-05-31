@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/21/user/793019).
-* Наставник: `Неизвестно`.
+* Студент: [Наталья Лыкова](https://up.htmlacademy.ru/htmlcss/21/user/793019).
+* Наставник: `Удовенко Марина`(https://htmlacademy.ru/profile/id7570).
 
 ---
 

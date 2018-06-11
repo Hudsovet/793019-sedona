@@ -10,9 +10,11 @@
         <ul class="site-navigation">
           <li><a href="info.html">Информация</a></li>
           <li><a href="media.html">Фото и видео</a></li>
+        </ul>
           <a class="main-header-logo">
             <img src="img/logo.jpg" width="138" height="70" alt="sedona-logo">
           </a>
+        <ul class="site-navigation">
           <li><a href="price.html">Карта штата</a></li>
           <li><a href="hotels.html">Гостиницы</a></li>
         </ul>
@@ -23,7 +25,7 @@
 
       <section class="about">
         <h2 class="visually-hidden">Главное фото</h2>
-        <p><img src="img/main-photo.jpg"></p>
+        <p><img src="img/main-photo.jpg" alt="background"> </p><!-- картинка как бэкграунд -->
          <div>
            Седона - небольшой городок в Аризоне, заслуживающий большего!<br>
            Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
@@ -81,23 +83,45 @@
       <h2>Заинтересовались?</h2>
       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне!</p>
       <p class="hotels-search-info">Поиск гостиницы в Седоне</p>
-      <!-- Место для формы -->
+
+<form class="hotels-search-form" action="https://echo.htmlacademy.ru" method="get">
+
+      <p class="hotels-search-item">
+        <label for="hotels-search-arrival-date">Дата заезда</label>
+            <input tabindex="1" id="hotels-search-arrival-date" type="text" class="date" name="arrival-date" placeholder="24 апреля 2017"></p>
+
+
+      <p  class="hotels-search-item">
+        <label for="hotels-search-departure-date">Дата выезда</label>
+            <input tabindex="2" id="hotels-search-departure-date" type="text" class="date" name="departure-date" placeholder="4 июля 2017"></p>
+
+      <p  class="hotels-search-item">
+        <label for="hotels-search-adults">Взрослые</label>
+            <input tabindex="3" id="hotels-search-adults" type="number" name="adults" placeholder="2"></p>
+
+      <p  class="hotels-search-item">
+        <label for="hotels-search-kids">Дети</label>
+            <input tabindex="4" id="hotels-search-kids" type="number" name="kids" placeholder="0"></p>
+
+      <button class="button" type="submit">Найти</button>
+
+</form>
       </section>
 </main>
 
   <footer class="main-footer">
       <p class="footer-hashtag">
-      <a href="#">#visitsedona</a>
+      <a href="#visitsedona">#visitsedona</a>
      </p>
       <div class="footer-social">
         <ul>
-          <li><a class="social-button" href="#">Twitter</a></li>
-          <li><a class="social-button" href="#">Fb</a></li>
-          <li><a class="social-button" href="#">Youtube</a></li>
+          <li><a class="social-button" href="https://twitter.com" aria-label="Twitter">Twitter</a></li>
+          <li><a class="social-button" href="https://facebook.com" aria-label="Facebook">Fb</a></li>
+          <li><a class="social-button" href="https://youtube.com" aria-label="Youtube">Youtube</a></li>
         </ul>
       </div>
       <p class="footer-copyright">
-      <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+      <a class="button" href="https://htmlacademy.ru" aria-label="HTML Academy">HTML Academy</a>
       </p>
   </footer>
 

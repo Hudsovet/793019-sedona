@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+
+}
+.main-navigation {
+  font-size: 14px;
+  line-height: normal; /*normal или указывать число? */
+  background-color: #ffffff;
+  list-style: none;
+  font-weight: 700;
+
+}
+.site-navigation {
+  list-style: none;
+
+}
+.intro{
+  text-align: center;
+
+}
+.reasons-list {
+  list-style: none;
+  text-align: center;
+
+}
+.feature-item {
+  list-style: none;
+  text-align: center;
+
+}
+.main-navigation a,
+.site-navigation a {
+  color: black;
+
+}
+.main-navigation a:hover,
+.site-navigation a:hover {
+  color: #81b3d2;
+
+}
+.main-navigation a:focus,
+.site-navigation a:focus {
+  color: #b2b2b2;
+
+}
+.main-navigation a:active,
+.site-navigation a:active {
+    color: #b2b2b2;
+
+}
+.about {
+  background-color: #ffffff;
+  background-image: url("../img/main-photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: width: 1200px; height: 800px;
+
+}
+.hotels-search {
+  text-align: center;
+
+}
+.bold {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: black;
+
+}
+.sedona-photo {
+  margin-top: 76px;
+  text-align: center;
+
+}
+.reasone-item h3 {
+  font-size: 21px;
+  line-height: normal; /*узнать об этом */
+  list-style: none;
+  font-weight: 700;
+
+}
+.features-list {
+  color: black;
+
+}
+.inverse {
+  color: white;
+
+}
+.white {
+  background-color: #ffffff;
+
+}
+.blue {
+  background-color: #81b3d2;
+
+}
+.button {
+  font: inherit;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+}
+.button-blue {
+  background-color: #81b3d2;
+
+}
+.button-blue:hover {
+  background-color: #669ec0;
+
+}
+.button-blue:focus {
+  background-color: #5496bd;
+
+}
+.button-blue:active {
+  background-color: #5496bd;
+  color: #88b6d1;
+
+}
+.button-brown {
+ background-color: #766357;
+
+}
+.button-brown:hover {
+  background-color: #604e43;
+
+}
+.button-brown:focus {
+  background-color: #503e33;
+
+}
+.button-brown:active {
+  background-color: #503e33;
+  color: #857871;
+
+}
+.hotels-search-form {
+  font-size: 14px;
+  color: black;
+  line-height: normal;
+  list-style: none;
+  font-weight: 700;
+  background-color: white;
+
+}
+.hotels-search-item input {
+  font: inherit;
+  list-style: none;
+  background-color: #f2f2f2;
+
+}
+.hotels-search-item input:hover {
+  background-color: #ebebeb;
+
+}
+.hotels-search-item input:focus {
+  background-color: #ffffff;
+
+}
+.hotels-search-item input:active {
+  background-color: #ffffff;
+  border-color: #e5e5e5;
+
+}
+.hotels-search {
+  background-color: #ffffff;
+
+}
+.search-menu {
+  background-color: #f9f9f9;
+  background-image: url("../img/map.png");
+
+}
+.footer-social {
+  color: #black;
+  text-decoration: none;
+  text-align: center;
+
+}
+.footer-hashtag {
+  color: #black;
+  font-size: 14px;
+  line-height: normal;
+  list-style: none;
+  font-weight: 700;
+
+}
+.footer-hashtag a {
+  color: black;
+
+}
+.footer-hashtag a:hover {
+  color: #81b3d2;
+
+}
+.footer-hashtag a:focus {
+  color: #b2b2b2;
+
+}
+.footer-hashtag a:active {
+  color: #b2b2b2;
+
+}
+.footer-social  ul {
+  list-style: none;
+
+}
+.footer-copyright .button {
+color: black;
+
+}
+
+/* Кнопка "гостиницы" все равно активна
+
+.site-navigation-current a:current
+{
+  color: #d5cfcb;
+
+}*/
+.hotels {
+  background-color: #81b3d2;
+  background-image: url("../img/filter-main-photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: width: 1200px; height: 562px;
+  color: white;
+
+}
+.keywords {
+  font-size: 16px;
+  font-weight: 700;
+
+}
+.show {
+  background-color: transparent;
+
+}
+.breadcrumbs {
+  color: #81b3d2;
+  list-style: none;
+
+}
+.breadcrumbs a {
+  color: #b2b2b2;
+  text-decoration: underline;
+
+}
+/* underline dotted не прописывается */
+.breadcrumbs a:hover {
+  color: #81b3d2;
+  text-decoration: underline;
+
+}
+.breadcrumbs a:focus {
+  color: #000000;
+
+}
+.breadcrumbs a:active {
+  color: #000000;
+
+}
+.booking,
+.more-info {
+  font-size: 14px;
+  font-weight: 700;
+
+}
+.catalog-item-title,
+.found {
+  font-size: 21px;
+  font-weight: 700;
+  color: #000000;
+
+}
+.catalog-category,
+.catalog-price {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333;
+
+}
+.page-title{
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+
+}

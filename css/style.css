@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 21px;
   font-weight: 400;
   color: #333333;
   text-transform: uppercase;
@@ -18,7 +18,7 @@ a {
 }
 .main-navigation {
   font-size: 14px;
-  line-height: normal; /*normal или указывать число? */
+  line-height: 26px; /*normal или указывать число? */
   background-color: #ffffff;
   list-style: none;
   font-weight: 700;
@@ -29,7 +29,12 @@ a {
 
 }
 .intro{
+  font-size: 14px;
+  line-height: 26px;
   text-align: center;
+  background-color: #ffffff;
+  background-image: url("../img/Layer-under-main.png");
+  background-size: width: 1200px; height: 216px;
 
 }
 .reasons-list {
@@ -64,10 +69,10 @@ a {
 }
 .about {
   background-color: #ffffff;
-  background-image: url("../img/main-photo.jpg");
+  background-image: url("../img/main-photo-crop.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: width: 1200px; height: 800px;
+  background-size: width: 1200px; height: 510px;
 
 }
 .hotels-search {
@@ -82,13 +87,12 @@ a {
 
 }
 .sedona-photo {
-  margin-top: 76px;
   text-align: center;
 
 }
 .reasone-item h3 {
   font-size: 21px;
-  line-height: normal; /*узнать об этом */
+  line-height: 21px;
   list-style: none;
   font-weight: 700;
 
@@ -105,10 +109,16 @@ a {
   background-color: #ffffff;
 
 }
+
 .blue {
-  background-color: #81b3d2;
+    background-color: #81b3d2;
 
 }
+
+.realtown-background{
+  background-image: url("../img/realtown-crop.jpg");
+}
+
 .button {
   font: inherit;
   text-align: center;
@@ -117,6 +127,13 @@ a {
   text-transform: uppercase;
 
 }
+.search-sedona {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+
+}
+
 .button-blue {
   background-color: #81b3d2;
 
@@ -154,7 +171,7 @@ a {
 .hotels-search-form {
   font-size: 14px;
   color: black;
-  line-height: normal;
+  line-height: 26px;
   list-style: none;
   font-weight: 700;
   background-color: white;
@@ -197,7 +214,7 @@ a {
 .footer-hashtag {
   color: #black;
   font-size: 14px;
-  line-height: normal;
+  line-height: 26px;
   list-style: none;
   font-weight: 700;
 
@@ -245,14 +262,20 @@ color: black;
 }
 .keywords {
   font-size: 16px;
+  line-height: 21px;
   font-weight: 700;
 
 }
 .show {
+  font-size: 14px;
+  line-height: 21px;
   background-color: transparent;
+
 
 }
 .breadcrumbs {
+  font-size: 12px;
+  line-height: 18px;
   color: #81b3d2;
   list-style: none;
 
@@ -279,26 +302,46 @@ color: black;
 .booking,
 .more-info {
   font-size: 14px;
+  line-height: 21px;
   font-weight: 700;
-
-}
-.catalog-item-title,
-.found {
-  font-size: 21px;
-  font-weight: 700;
-  color: #000000;
 
 }
 .catalog-category,
 .catalog-price {
   font-size: 14px;
+  line-height: 21px;
   font-weight: 400;
   color: #333333;
 
 }
 .page-title{
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 18px;
   font-weight: 400;
   color: #000000;
 
+}
+.catalog-item-title,
+.found {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+
+}
+
+.catalog-item-title {
+  color: #000000;
+
+}
+.catalog-item-title:hover {
+  color: #81b3d2;
+
+}
+.catalog-item-title:focus {
+  color: #b2b2b2;
+
+}
+.catalog-item-title:active {
+    color: #b2b2b2;
 }

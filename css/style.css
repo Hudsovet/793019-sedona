@@ -213,7 +213,7 @@ a {
 }
 .footer-hashtag {
   color: #black;
-  font-size: 14px;
+  font-size: 21px;
   line-height: 26px;
   list-style: none;
   font-weight: 700;
@@ -344,4 +344,46 @@ color: black;
 }
 .catalog-item-title:active {
     color: #b2b2b2;
+}
+
+/*СЕТКИ */
+
+body {
+  background-image: url("../img/sedona-index-1200-2.jpg");
+  background-size: 1200px auto;
+  background-repeat: no-repeat;
+
+}
+
+
+.main-header {
+  margin-bottom: 76px;
+/* Временно для сетки */
+  min-height: 56px;
+}
+
+.main-navigation {
+ /* Временно для сетки */
+ min-height: 56px;
+ background-color: transparent;
+}
+
+.main-header-logo {
+  width: 138px;
+  height: 70px;
+  position: absolute;
+  left: 612px;
+  top: -3px;
+}
+
+
+.site-navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: #d23a4f;
+  width: 1200px;
+  align-items: center;
+  justify-content: space-around;
+
 }

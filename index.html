@@ -9,21 +9,145 @@
 
   </head>
   <body>
+    <div class="general-container">
     <header class="main-header">
       <a class="main-header-logo">
         <img src="img/logo.png" width="138" height="70" alt="sedona-logo">
       </a>
       <nav class="main-navigation">
         <ul class="site-navigation">
-          <li class="menu1"><a href="info.html">Информация</a></li>
-          <li class="menu2"><a href="media.html">Фото и видео</a></li>
-          <li class="menu3"><a href="price.html">Карта штата</a></li>
-          <li class="menu4"><a href="catalog.html">Гостиницы</a></li>
+          <li class="menu menu-info"><a href="info.html">Информация</a></li>
+          <li class="menu menu-photos"><a href="media.html">Фото и видео</a></li>
+          <li class="menu menu-map"><a href="price.html">Карта штата</a></li>
+          <li class="menu menu-hotels"><a href="catalog.html">Гостиницы</a></li>
         </ul>
-
       </nav>
-
     </header>
+
+      <main class="container">
+        <h1 class="visually-hidden">Городoк Седона</h1>
+          <section class="about">
+            <h2 class="visually-hidden">Главное фото</h2>
+            <p class="sedona-photo"><img src="img/textsedona.png" width="458" height="352" alt="Text"></p><!-- картинка как бэкграунд -->
+          </section>
+             <section class="intro">
+               <span class="bold">Седона - небольшой городок в Аризоне,<br>
+                 заслуживающий большего!
+               </span>
+               <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+
+          </section>
+
+          <section class="reasons">
+            <h2 class="visually-hidden">Причины</h2>
+            <div class="reasons-list realtown-background">
+              <div class="inverse blue realtown ">
+            <h3>Настоящий городок!</h3>
+                <p>– №1 –</p>
+                <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
+              </div>
+            </div>
+
+                <ul class="features-list white">
+                  <li class="feature-item">
+                    <h3>Жилье</h3>
+                      <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                  </li>
+                  <li class="feature-item">
+                    <h3>Еда</h3>
+                      <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                  </li>
+                  <li class="feature-item">
+                    <h3>Сувениры</h3>
+                       <p>Не только китайского, но и местного производства!</p>
+                 </li>
+                </ul>
+
+<div class="reasons-list diablo-background">
+              <div class="inverse blue diablo">
+                <h3>Там есть мост дьявола</h3>
+                <p>– №2 –</p>
+                <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+              </div>
+            </div>
+<ul class="reasons-list gray">
+               <li class="reasone-item">
+                <h3>Небольшая площадь</h3>
+                <p>– №3 –</p>
+                <p>Все достопримечательности находятся очень близко</p>
+              </li>
+              <li class="reasone-item">
+                <h3>Красивая дорога</h3>
+                <p>– №4 –</p>
+                <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              </li>
+              <li class="reasone-item">
+                <h3>Мало туристов</h3>
+                <p>– №5 –</p>
+                <p>Большинство едет в Град Каньон и толпится там</p>
+              </li>
+
+            </ul>
+          </section>
+
+            <section class="hotels-search">
+              <div class="intro-search">
+            <h2>Заинтересовались?</h2>
+            <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне!</p>
+            <div class="search-menu">
+              <button class="button button-brown search-sedona" href="#"> Поиск гостиницы в Седоне</button>
+            </div>
+          </div>
+
+      <!--Форма Поиска-->
+
+      <section class="modal modal-search">
+      <form class="hotels-search-form" action="https://echo.htmlacademy.ru" method="get">
+
+            <p class="hotels-search-item">
+              <label for="hotels-search-arrival-date">Дата заезда</label>
+                  <input tabindex="1" id="hotels-search-arrival-date" type="text" class="date" name="arrival-date" placeholder="24 апреля 2017"></p>
+
+
+            <p  class="hotels-search-item">
+              <label for="hotels-search-departure-date">Дата выезда</label>
+                  <input tabindex="2" id="hotels-search-departure-date" type="text" class="date" name="departure-date" placeholder="4 июля 2017"></p>
+
+            <p  class="hotels-search-item">
+              <label for="hotels-search-adults">Взрослые</label>
+                  <input tabindex="3" id="hotels-search-adults" type="number" name="adults" placeholder="2"></p>
+
+            <p  class="hotels-search-item">
+              <label for="hotels-search-kids">Дети</label>
+                  <input tabindex="4" id="hotels-search-kids" type="number" name="kids" placeholder="0"></p>
+
+            <button class="button button-blue search-sedona" type="submit">Найти</button>
+            </section>
+
+      </form>
+            </section>
+
+      </main>
+
+        <footer class="main-footer">
+          <div class="container">
+            <p class="footer-hashtag">
+            <a href="#visitsedona">#visitsedona</a>
+           </p>
+            <div class="footer-social">
+              <ul>
+                <li><a class="social-button" href="https://twitter.com" aria-label="Twitter">Twitter</a></li>
+                <li><a class="social-button" href="https://facebook.com" aria-label="Facebook">Fb</a></li>
+                <li><a class="social-button" href="https://youtube.com" aria-label="Youtube">Youtube</a></li>
+              </ul>
+            </div>
+            <p class="footer-copyright">
+            <a class="button" href="https://htmlacademy.ru" aria-label="HTML Academy">Website by HTML Academy</a>
+            </p>
+          </div>
+        </footer>
+
+  </div>
 
   </body>
 </html>

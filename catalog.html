@@ -8,27 +8,27 @@
       <link href="css/normalize.css" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header">
-      <nav class="main-navigation">
-        <ul class="site-navigation">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="media.html">Фото и видео</a></li>
-        </ul>
-          <a class="main-header-logo">
-            <img src="img/logo.jpg" width="138" height="70" alt="sedona-logo">
-          </a>
-        <ul class="site-navigation">
-          <li><a href="price.html">Карта штата</a></li>
-          <li class="site-navigation-current"><a href="catalog.html">Гостиницы</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="general-container">
+      <header class="main-header">
+        <a class="main-header-logo" href="index.html">
+          <img src="img/logo.png" width="138" height="70" alt="sedona-logo">
+        </a>
+        <nav class="main-navigation">
+          <ul class="site-navigation">
+            <li class="menu menu-info"><a href="info.html">Информация</a></li>
+            <li class="menu menu-photos"><a href="media.html">Фото и видео</a></li>
+            <li class="menu menu-map"><a href="price.html">Карта штата</a></li>
+            <li class="menu menu-hotels"><a href="catalog.html">Гостиницы</a></li>
+          </ul>
+        </nav>
+      </header>
 
     <main class="container">
   <section class="hotels">
-      <div class "search-filters"><h2 class="visually-hidden">Фильтр поиска</h2>
+      <div class "search-filters">
+        <h2 class="visually-hidden">Фильтр поиска</h2>
       <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-        <fieldset>
+        <fieldset class="first-column">
           <legend class="keywords">Инфраструктура:</legend>
           <ul>
             <li class="filter-option">
@@ -45,7 +45,7 @@
               </li>
               </ul>
         </fieldset>
-        <fieldset>
+        <fieldset class="second-column">
           <legend class="keywords">Тип жилья:</legend>
             <ul>
               <li class="filter-option">
@@ -62,7 +62,7 @@
                 </li>
             </ul>
           </fieldset>
-          <fieldset>
+          <fieldset class="third-column">
           <legend class="keywords">Стоимость в сутки (р):</legend>
           <p>От 0 до 3000</p>
           <div class="half-width">
@@ -145,21 +145,25 @@
       </main>
 
 
-<footer class="main-footer">
-    <p class="footer-hashtag">
-    <a href="#visitsedona">#visitsedona</a>
-   </p>
-    <div class="footer-social">
-      <ul>
-        <li><a class="social-button" href="https://twitter.com" aria-label="Twitter">Twitter</a></li>
-        <li><a class="social-button" href="https://facebook.com" aria-label="Facebook">Fb</a></li>
-        <li><a class="social-button" href="https://youtube.com" aria-label="Youtube">Youtube</a></li>
-      </ul>
-    </div>
-    <p class="footer-copyright">
-    <a class="button" href="https://htmlacademy.ru" aria-label="HTML Academy">Website by HTML Academy</a>
-    </p>
-</footer>
+      <footer class="main-footer">
+        <div class="container">
+          <p class="footer-hashtag">
+          <a href="#visitsedona">#visitsedona</a>
+         </p>
+          <div class="footer-social">
+            <ul>
+              <li><a class="social-button" href="https://twitter.com" aria-label="Twitter">Twitter</a></li>
+              <li><a class="social-button" href="https://facebook.com" aria-label="Facebook">Fb</a></li>
+              <li><a class="social-button" href="https://youtube.com" aria-label="Youtube">Youtube</a></li>
+            </ul>
+          </div>
+          <p class="footer-copyright">
+          <a class="button" href="https://htmlacademy.ru" aria-label="HTML Academy">Website by HTML Academy</a>
+          </p>
+        </div>
+      </footer>
+
+</div>
 
 </body>
 </html>

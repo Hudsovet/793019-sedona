@@ -39,12 +39,18 @@ img {
   line-height: 26px;
   text-align: center;
   background-color: #ffffff;
-
+  padding-top: 61px;
+  padding-bottom: 47px;
 
   width: 100%;
-  height: 214px;
 
 
+
+}
+.intro p {
+  margin: 0;
+  padding: 0;
+  margin-top: 25px;
 }
 
 .feature-item {
@@ -74,8 +80,10 @@ img {
 }
 .about {
   background-color: #ffffff;
-  background-image: url("../img/main-photo-crop.jpg");
-  background-position: center;
+  background-image:
+  url("../img/Shape-under-main.png"),
+  url("../img/main-photo-crop.jpg");
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: width: 1200px; height: 510px;
 
@@ -469,12 +477,12 @@ input[type="radio"].visually-hidden {
   list-style: none;
   width: 100%;
   /* Временно для сетки */
-  min-height: 256px;
+  min-height: 330px;
 
 }
 .feature-item {
   /* Временно для сетки */
-  min-height: 256px;
+  min-height: 330px;
   width: 400px;
 
 }
@@ -541,33 +549,77 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
   width: 100%;
+  padding-top: 53px;
 
   /* Временно для сетки */
-  min-height: 292px;
+
 
 }
 .intro-search h2 {
   margin: 0;
   padding: 0;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+
+
+}
+
+.intro-search p {
+  margin: 0;
+  padding: 0;
+  padding-top: 26px;
+  padding-bottom: 51px;
+
+
+
+}
+.search-sedona {
+  margin: 0;
+  padding: 0;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  padding-left: 137px;
+  padding-right: 137px;
+}
+
+.find-sedona {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  padding-top: 16px;
+  padding-bottom: 21px;
+  padding-left: 195px;
+  padding-right: 195px;
 
 }
 
 .hotels-search {
-  background-color: #f9f9f9;
-  background-image: url("../img/map.png");
+
   margin: 0;
   padding: 0;
+
+
+}
+
+.modal-search {
+  background-color: #f9f9f9;
+  background-image: url("../img/map.jpg");
+    /* Временно для сетки */
+  min-height: 472px;
 
 
 }
 .hotels-search-form {
   display: flex;
   flex-direction: column;
-  width: 576px;
+  width: 568px;
   margin: 0;
   padding: 0;
   align-items: center;
-  margin-left: 312px;
+  margin-left: 316px;
 
   /* Временно для сетки */
   min-height: 400px;
@@ -719,12 +771,18 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item {
+  display: flex;
   width: 100%;
   margin: 0;
   padding: 0;
 
   /* Временно для сетки */
   min-height: 152px;
+}
+
+.catalog-item h3 {
+  order: 1;
+
 }
 
 .catalog-list {

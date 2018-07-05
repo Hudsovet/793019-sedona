@@ -781,7 +781,6 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item h3 {
-  order: 1;
 
 }
 
@@ -800,4 +799,23 @@ input[type="radio"].visually-hidden {
  margin: 0;
  margin-top: 49px;
  margin-bottom: 30px;
+}
+
+.column-rating {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+}
+
+.column-title {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.more-info p{
+  margin: 0;
+  padding: 0;
 }

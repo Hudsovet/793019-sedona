@@ -49,15 +49,18 @@
             </div>
 
                 <ul class="features-list white">
-                  <li class="feature-item">
-                    <h3>Жилье</h3>
+                  <li class="feature-item house">
+                    <img src="img/icon-1.svg" alt="Жилье">
+                    <h3>Жильё</h3>
                       <p>Рекомендуем пожить в настоящем <br> мотеле, все как в кино!</p>
                   </li>
-                  <li class="feature-item">
+                  <li class="feature-item burger">
+                    <img src="img/icon-3.svg" alt="Еда">
                     <h3>Еда</h3>
                       <p>Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь!</p>
                   </li>
-                  <li class="feature-item">
+                  <li class="feature-item gift">
+                    <img src="img/icon-2.svg" alt="Жилье">
                     <h3>Сувениры</h3>
                        <p>Не только китайского, но и местного <br> производства!</p>
                  </li>
@@ -104,24 +107,36 @@
       <section class="modal modal-search">
       <form class="hotels-search-form" action="https://echo.htmlacademy.ru" method="get">
 
+         <div class="arrival">
+
             <p class="hotels-search-item">
               <label for="hotels-search-arrival-date">Дата заезда</label>
                   <input tabindex="1" id="hotels-search-arrival-date" type="text" class="date" name="arrival-date" placeholder="24 апреля 2017"></p>
+                </div>
 
+         <div class="departure">
 
             <p  class="hotels-search-item">
               <label for="hotels-search-departure-date">Дата выезда</label>
                   <input tabindex="2" id="hotels-search-departure-date" type="text" class="date" name="departure-date" placeholder="4 июля 2017"></p>
+                </div>
+
+           <div class="adults">
 
             <p  class="hotels-search-item">
               <label for="hotels-search-adults">Взрослые</label>
                   <input tabindex="3" id="hotels-search-adults" type="number" name="adults" placeholder="2"></p>
+                </div>
+
+          <div class="kids">
 
             <p  class="hotels-search-item">
               <label for="hotels-search-kids">Дети</label>
                   <input tabindex="4" id="hotels-search-kids" type="number" name="kids" placeholder="0"></p>
-
+                </div>
+          <div class="find-sedona"
             <button class="button button-blue find-sedona" type="submit">Найти</button>
+          </div>
             </section>
 
       </form>

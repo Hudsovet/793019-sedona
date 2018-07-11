@@ -482,7 +482,7 @@ input[type="radio"].visually-hidden {
 }
 .feature-item {
   /* Временно для сетки */
-  min-height: 330px;
+
   width: 400px;
 
 }
@@ -620,16 +620,13 @@ input[type="radio"].visually-hidden {
   padding: 0;
   align-items: center;
   margin-left: 316px;
+  flex-wrap: wrap;
 
   /* Временно для сетки */
   min-height: 400px;
 }
 
-.button-brown {
 
-
-
-}
 
 .main-footer {
   padding: 0;
@@ -818,4 +815,31 @@ input[type="radio"].visually-hidden {
 .more-info p{
   margin: 0;
   padding: 0;
+}
+
+
+.house {
+  margin: auto;
+  margin-top: 60px;
+}
+.burger {
+  margin: auto;
+  margin-top: 60px;
+}
+.gift {
+  margin: auto;
+  margin-top: 56px;
+}
+
+ .feature-item h3 {
+   margin: 0;
+   padding: 0;
+   margin-top: 24px;
+   margin-bottom: 24px;
+ }
+
+
+.arrival {
+  display: flex;
+  justify-content: space-between;
 }

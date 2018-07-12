@@ -21,6 +21,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.general-container {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
 
 .main-navigation {
   font-size: 14px;
@@ -579,8 +582,8 @@ input[type="radio"].visually-hidden {
   padding: 0;
   padding-top: 29px;
   padding-bottom: 29px;
-  padding-left: 137px;
-  padding-right: 137px;
+  padding-left: 139px;
+  padding-right: 140px;
 }
 
 .find-sedona {
@@ -618,12 +621,12 @@ input[type="radio"].visually-hidden {
   width: 568px;
   margin: 0;
   padding: 0;
-  align-items: center;
   margin-left: 316px;
   flex-wrap: wrap;
 
+
   /* Временно для сетки */
-  min-height: 400px;
+  min-height: 395px;
 }
 
 
@@ -817,29 +820,111 @@ input[type="radio"].visually-hidden {
   padding: 0;
 }
 
-
 .house {
   margin: auto;
-  margin-top: 60px;
+  margin-bottom: 73px;
+
 }
 .burger {
   margin: auto;
-  margin-top: 60px;
+
 }
 .gift {
   margin: auto;
-  margin-top: 56px;
+
 }
 
- .feature-item h3 {
+.feature-item h3 {
    margin: 0;
    padding: 0;
-   margin-top: 24px;
-   margin-bottom: 24px;
+   margin-top: 95px;
+
  }
 
+.house h3::before {
+  content: "";
+  position: absolute;
+  background: url("../img/icon-1.svg")no-repeat;
+  width: 75px;
+  height: 72px;
+  bottom: 55px;
+  left: 162px;
 
-.arrival {
+
+}
+.burger h3::before {
+  content: "";
+  position: absolute;
+  background: url("../img/icon-3.svg") no-repeat;
+  width: 74px;
+  height: 70px;
+  bottom: 55px;
+  left: 162px;
+
+
+
+}
+.gift h3::before {
+  content: "";
+  position: absolute;
+  background: url("../img/icon-2.svg")no-repeat;
+  width: 64px;
+  height: 76px;
+  bottom: 55px;
+  left: 168px;
+
+
+
+}
+
+.arrival p{
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  padding-left: 55px;
+  padding-top: 55px;
+}
+
+.arrival input {
+  width: 346px;
+  height: 38px;
+  padding: 0px;
+  border: 0px;
+}
+
+.arrival label {
+  padding-top: 5px;
+}
+
+.hotels-search-item {
+  width: 458px;
+}
+
+.departure p {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  padding-left: 55px;
+  padding-top: 27px;
+}
+
+.departure input {
+  width: 346px;
+  height: 38px;
+  padding: 0px;
+  border: 0px;
+}
+
+.departure label {
+  padding-top: 7px;
+}
+
+.adults-kids p {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-left: 55px;
+  padding-top: 37px;
 }

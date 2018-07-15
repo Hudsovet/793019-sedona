@@ -455,6 +455,7 @@ img {
 
 /* НЕПОНЯТНЫЙ КОД!*/
 
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
@@ -1018,4 +1019,9 @@ justify-content: center;
 .social-button:active {
   background-color: #5496bd;
   color: #88b6d1;
+}
+
+.facilities {
+  margin: 0px;
+  padding: 0px;
 }

@@ -680,14 +680,7 @@ input[type="radio"].visually-hidden {
 
 
 
-.filter {
-  display: flex;
-  justify-content: space-between;
-  min-height: 220px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
+
 
 .first-column {
   width: 313px;
@@ -1021,7 +1014,58 @@ justify-content: center;
   color: #88b6d1;
 }
 
-.facilities {
-  margin: 0px;
-  padding: 0px;
+.filter-option {
+  list-style: none;
+  margin-top: 24px;
+  padding-left: 17px;
+
+}
+
+.search-filters {
+  width: 300px;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  min-height: 220px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+ .filter legend {
+
+
+ }
+
+.first-column {
+  margin: 0;
+  padding: 0;
+  margin-top: 27px;
+  margin-left: 72px;
+
+  }
+
+  .filter ul {
+  padding: 0;
+  margin: 0;
+
+  }
+
+  .filter-option label {
+  position: relative;
+  display: block;
+  user-select: none;
+}
+
+  .filter-input-checkbox + label::before {
+  content: "";
+  position: absolute;
+  background: url("../img/checkbox-off.svg")no-repeat;
+  width: 27px;
+  height: 23px;
+  left: -18px;
+  top: 0;
 }

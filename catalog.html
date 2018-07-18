@@ -67,13 +67,22 @@
 
           </fieldset>
           <fieldset class="third-column">
-          <legend class="keywords">Стоимость в сутки (р):</legend>
-          <p>От 0 до 3000</p>
-          <div class="half-width">
-           0<input type="range" min="0" max="10" step="100">3000
-                     </div>
-            <button class="button show" href="#"> Показать</button>
 
+            <div class="filter-range">
+             <div class="filter-range-title">Стоимость в сутки (р):</div>
+              <div class="price-controls">
+               <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+               <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+              </div>
+            <div class="range-controls">
+             <div class="scale">
+              <div class="bar"></div>
+            </div>
+           <div class="range-toggle range-toggle-min"></div>
+             <div class="range-toggle range-toggle-max"></div>
+              </div>
+            <button class="btn-transparent" type="submit">Показать</button>
+            </div>
           </fieldset>
         </form>
       </div>
@@ -100,20 +109,27 @@
                   </p>
               </div>
               <div class="column-title">
-                 <h3>
-                  <a href="catalog-item-amara.html">
-                    <span class="catalog-item-title">Amara Resort and Spa</span>
-                  </a> <br>
-                    <span class="catalog-category">Гостиница</span>
-                    <span class="catalog-price">От 4000 р.</span>
-                 </h3>
-               <p>
+                <h3>
+                  <div class="lines">
+                  <div class="first-line">
+                 <a href="catalog-item-amara.html">
+                   <span class="catalog-item-title">Amara Resort & Spa</span>
+                 </a>
+               </div>
+                  <div class="second-line">
+                   <span class="catalog-category">Гостиница</span>
+                   <span class="catalog-price">От 4000 р.</span>
+                 </div>
+               </div>
+                </h3>
+               <p class="catalog-buttons">
                 <a class="button button-blue more-info" href="#">Подробнее</a>
                 <a class="button button-brown booking" href="#">Забронировать</a>
                </p>
                   </div>
                   <div class="column-rating">
-               <p>Рейтинг: 8,5</p>
+                  
+               <p class="numbers">Рейтинг: 8,5</p>
              </div>
             </li>
             <li class="catalog-item">
@@ -124,19 +140,25 @@
               </div>
               <div class="column-title">
                 <h3>
-                 <a href="catalog-item-desert.html">
-                   <span class="catalog-item-title">Desert Quail Inn</span>
-                 </a> <br>
+                  <div class="lines">
+                  <div class="first-line">
+                  <a href="catalog-item-desert.html">
+                      <span class="catalog-item-title">Desert Quail Inn</span>
+                    </a>
+               </div>
+                  <div class="second-line">
                    <span class="catalog-category">Мотель</span>
                    <span class="catalog-price">От 3000 р.</span>
+                 </div>
+               </div>
               </h3>
-               <p>
+               <p class="catalog-buttons">
                 <a class="button button-blue more-info" href="#">Подробнее</a>
                 <a class="button button-brown booking" href="#">Забронировать</a>
                </p>
                   </div>
                   <div class="column-rating">
-               <p>Рейтинг: 8,9</p>
+               <p class="numbers">Рейтинг: 8,9</p>
              </div>
             </li>
 
@@ -148,19 +170,25 @@
               </div>
               <div class="column-title">
                 <h3>
-                  <a href="catalog-item-diablo.html">
-                    <span class="catalog-item-title">Villas at Poco Diablo</span>
-                  </a> <br>
-                    <span class="catalog-category">Апартаменты</span>
-                    <span class="catalog-price">От 2000 р.</span>
+                  <div class="lines">
+                  <div class="first-line">
+                    <a href="catalog-item-diablo.html">
+                      <span class="catalog-item-title">Villas at Poco Diablo</span>
+                    </a>
+               </div>
+                  <div class="second-line">
+                   <span class="catalog-category">Апартаменты</span>
+                   <span class="catalog-price">От 2000 р.</span>
+                 </div>
+               </div>
               </h3>
-               <p>
+               <p class="catalog-buttons">
                 <a class="button button-blue more-info" href="#">Подробнее</a>
                 <a class="button button-brown booking" href="#">Забронировать</a>
                </p>
                   </div>
                   <div class="column-rating">
-               <p>Рейтинг: 9,2</p>
+               <p class="numbers">Рейтинг: 9,2</p>
              </div>
             </li>
           </ul>
@@ -169,23 +197,35 @@
       </main>
 
 
-      <footer class="main-footer">
-        <div class="container">
-          <p class="footer-hashtag">
-          <a href="#visitsedona">#visitsedona</a>
-         </p>
-          <div class="footer-social">
-            <ul>
-              <li><a class="social-button" href="https://twitter.com" aria-label="Twitter">Twitter</a></li>
-              <li><a class="social-button" href="https://facebook.com" aria-label="Facebook">Fb</a></li>
-              <li><a class="social-button" href="https://youtube.com" aria-label="Youtube">Youtube</a></li>
-            </ul>
-          </div>
-          <p class="footer-copyright">
-          <a class="button" href="https://htmlacademy.ru" aria-label="HTML Academy">Website by HTML Academy</a>
-          </p>
-        </div>
-      </footer>
+
+              <footer class="main-footer">
+                <div class="footer-container">
+                  <div class="hashtag">
+                  <p class="footer-hashtag">
+                  <a href="#visitsedona">#visitsedona</a>
+                 </p>
+               </div>
+                  <div class="footer-social">
+                    <ul class="social">
+                      <li><a class="social-button twitter" href="https://twitter.com"><span class="visually-hidden">Твиттер</span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="15" viewBox="0 0 17 15"><path fill="#FFF" d="M10.95.144c1.685-.496 2.984.27 3.577 1.179.673-.231 1.331-.481 2.011-.708a2.345 2.345 0 0 1-.857 1.768c.685.17 1.304-.491 1.304-.491-.169 1-1.006 1.788-1.563 2.024-.231 6.75-3.175 11.217-10.077 11.082h-.446c-.41 0-4.164-.46-4.898-1.887 2.271.196 3.893-.422 4.693-1.177-.96-.3-2.679-.477-2.979-2.95.349.106.564.228 1.19.119C1.705 8.247.374 7.53.448 5.33c.285.328 1.067.536 1.34.472C1.085 5.561-.182 2.442.894.85c1.818 1.854 3.735 3.606 7.152 3.773C8.254 2.33 9.183.793 10.95.144z"/></svg>
+                          </a>
+                    </li>
+                      <li><a class="social-button facebook" href="https://facebook.com"><span class="visually-hidden">Фейсбук</span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/></svg>
+                      </a>
+                    </li>
+                      <li><a class="social-button youtube" href="https://youtube.com"><span class="visually-hidden">Ютьюб</span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16" viewBox="0 0 20 16"><path fill="#FFF" d="M17 0H3C1.35 0 0 1.35 0 3v10c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zM6.027 11.998V4.002L15.014 8l-8.987 3.998z"/></svg>
+                      </a>
+                    </li>
+                    </ul>
+                  </div>
+                  <div class="copyright">
+                  <p class="footer-copyright">
+                  <a class="button academy" href="https://htmlacademy.ru">Website by <span class="visually-hidden">HTMLacademy</span>
+                  </a>
+                  </p>
+                </div>
+                </div>
+              </footer>
 
 </div>
 

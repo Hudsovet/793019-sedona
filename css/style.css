@@ -519,7 +519,6 @@ input[type="radio"].visually-hidden {
 }
  .realtown {
   /* Временно для сетки */
-  min-height: 256px;
   width: 400px;
 
 }
@@ -532,7 +531,7 @@ input[type="radio"].visually-hidden {
   list-style: none;
   width: 100%;
   /* Временно для сетки */
-  min-height: 256px;
+
 
 }
  .diablo {
@@ -584,7 +583,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
   padding-top: 29px;
-  padding-bottom: 29px;
+  padding-bottom: 28px;
   padding-left: 139px;
   padding-right: 140px;
 }
@@ -791,7 +790,6 @@ input[type="radio"].visually-hidden {
   position: relative;
   margin: 0;
   margin-top: 49px;
-  margin-bottom: 30px;
 }
 
 .column-rating {
@@ -877,10 +875,10 @@ input[type="radio"].visually-hidden {
   padding: 0;
   padding-left: 55px;
   padding-top: 52px;
+  position: relative;
 }
 
 .arrival input {
-  /* width: 346px; */
   height: 38px;
   padding: 0px;
   border: 0px;
@@ -901,10 +899,11 @@ input[type="radio"].visually-hidden {
   padding: 0;
   padding-left: 55px;
   padding-top: 29px;
+  position: relative;
 }
 
 .departure input {
-  /* width: 346px; */
+
   height: 38px;
   padding: 0px;
   border: 0px;
@@ -936,11 +935,12 @@ input[type="radio"].visually-hidden {
 }
 
 .adults-kids input {
-  width: 114px;
+  width: 23px;
   height: 38px;
-  margin:  0px;
+  margin: 0px;
   padding: 0px;
   border: 0px;
+  padding-left: 15px;
 }
 
 .adults label {
@@ -949,8 +949,8 @@ input[type="radio"].visually-hidden {
 }
 
 .kids label {
-  margin-left: 52px;
-  margin-right: 23px;
+  margin-left: 50px;
+  margin-right: 32px;
 }
 
 .social-button {
@@ -1264,8 +1264,8 @@ justify-content: center;
 .reasone-item  {
   margin: 0;
   padding: 0;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 71px;
+  padding-right: 71px;
 }
 
 .realtown p {
@@ -1273,6 +1273,7 @@ justify-content: center;
   padding: 0;
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 20px;
 
 }
 
@@ -1281,6 +1282,7 @@ justify-content: center;
   padding: 0;
   padding-left: 40px;
   padding-right: 40px;
+  padding-top: 20px;
 }
 
 .feature-item p {
@@ -1296,12 +1298,123 @@ justify-content: center;
 }
 
 
-.catalog-item li::before {
+.star-1::before {
   content: "";
   position: absolute;
-  background: url("../img/star.svg")no-repeat;
+  background: url(../img/star.svg);
   width: 18px;
   height: 17px;
+  left: 85px;
+}
+
+.star-2::before {
+  content: "";
+  position: absolute;
+  background: url(../img/star.svg);
+  width: 18px;
+  height: 17px;
+  left: 60px;
+}
+
+.star-3::before {
+  content: "";
+  position: absolute;
+  background: url(../img/star.svg);
+  width: 18px;
+  height: 17px;
+  left: 37px;
+
+}
+
+.star-4::before {
+  content: "";
+  position: absolute;
+  background: url(../img/star.svg);
+  width: 18px;
+  height: 17px;
+  left: 12px;
+
+}
 
 
+
+
+.column-rating {
+  position: relative;
+}
+
+.adults-minus {
+  padding: 0;
+  margin: 0;
+    height: 38px;
+    width: 38px;
+    border: 0;
+    background-color: #f2f2f2;
+    color: #a9a9a9;
+
+}
+
+.adults-plus {
+  padding: 0;
+  margin: 0;
+    height: 38px;
+    width: 38px;
+    border: 0;
+    background-color: #f2f2f2;
+      color: #a9a9a9;
+
+}
+
+.adults {
+  display: flex;
+}
+
+.kids {
+  display: flex;
+}
+
+.minus {
+  padding: 0;
+  margin: 0;
+    height: 38px;
+    width: 38px;
+    border: 0;
+    background-color: #f2f2f2;
+    color: #a9a9a9;
+
+}
+
+.plus {
+  padding: 0;
+  margin: 0;
+  height: 38px;
+  width: 38px;
+  border: 0;
+  background-color: #f2f2f2;
+  color: #a9a9a9;
+
+}
+
+.arrival::after {
+  content: "";
+  position: absolute;
+  background: url(../img/calendar.svg)no-repeat;
+  width: 21px;
+  height: 22px;
+  right: 65px;
+  top: 59px;
+}
+
+.departure::after {
+  content: "";
+  position: absolute;
+  background: url(../img/calendar.svg)no-repeat;
+  width: 21px;
+  height: 22px;
+  right: 65px;
+  top: 36px;
+}
+
+.reasone-item p {
+  padding-top: 8px;
 }

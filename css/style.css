@@ -943,6 +943,12 @@ input[type="radio"].visually-hidden {
   padding-left: 15px;
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .adults label {
   margin-left: 55px;
   margin-right: 38px;
@@ -1337,8 +1343,6 @@ justify-content: center;
 }
 
 
-
-
 .column-rating {
   position: relative;
 }
@@ -1381,6 +1385,7 @@ justify-content: center;
     border: 0;
     background-color: #f2f2f2;
     color: #a9a9a9;
+    font-size: 16px;
 
 }
 
@@ -1392,29 +1397,70 @@ justify-content: center;
   border: 0;
   background-color: #f2f2f2;
   color: #a9a9a9;
+  font-size: 16px;
 
 }
 
-.arrival::after {
-  content: "";
-  position: absolute;
-  background: url(../img/calendar.svg)no-repeat;
-  width: 21px;
-  height: 22px;
-  right: 65px;
-  top: 59px;
-}
-
-.departure::after {
-  content: "";
-  position: absolute;
-  background: url(../img/calendar.svg)no-repeat;
-  width: 21px;
-  height: 22px;
-  right: 65px;
-  top: 36px;
-}
 
 .reasone-item p {
   padding-top: 8px;
+}
+
+.minus {
+  color: #b2b2b2;
+
+}
+.minus:hover {
+  color: #000000;
+
+}
+.minus:focus {
+  color: #81b3d2;
+
+}
+.minus:active {
+  color: #81b3d2;
+
+}
+.plus {
+  color: #b2b2b2;
+
+}
+.plus:hover {
+  color: #000000;
+
+}
+.plus:focus {
+  color: #81b3d2;
+
+}
+.plus:active {
+  color: #81b3d2;
+
+}
+
+.calendar-departure {
+  padding: 0;
+  margin: 0;
+  height: 22px;
+  width: 21px;
+  border: 0;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 39px;
+  right: 65px;
+
+}
+
+.calendar-arrival {
+  padding: 0;
+  margin: 0;
+  height: 22px;
+  width: 21px;
+  border: 0;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 60px;
+  right: 65px;
+
 }

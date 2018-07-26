@@ -49,7 +49,7 @@ img {
   text-align: center;
   background-color: #ffffff;
   padding-top: 61px;
-  padding-bottom: 47px;
+  padding-bottom: 48px;
   width: 100%;
 
 }
@@ -57,7 +57,7 @@ img {
 .intro p {
   margin: 0;
   padding: 0;
-  margin-top: 25px;
+  margin-top: 23px;
 }
 
 .feature-item {
@@ -544,10 +544,13 @@ input[type="radio"].visually-hidden {
   padding: 0;
   list-style: none;
   width: 100%;
-  padding-bottom: 46px;}
+  padding-bottom: 43px;
+
+}
 
 .reasone-item {
   width: 400px;
+
 }
 
 .realtown-background {
@@ -561,7 +564,7 @@ input[type="radio"].visually-hidden {
 
 .realtown {
   width: 400px;
-  padding-bottom: 61px;
+  padding-bottom: 59px;
 
 }
 
@@ -594,7 +597,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
   width: 100%;
-  padding-top: 53px;
+
 
 
 
@@ -605,6 +608,7 @@ input[type="radio"].visually-hidden {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  padding-top: 54px;
 
 
 }
@@ -613,7 +617,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
   padding-top: 26px;
-  padding-bottom: 51px;
+  padding-bottom: 48px;
 
 
 
@@ -621,16 +625,16 @@ input[type="radio"].visually-hidden {
 .search-sedona {
   margin: 0;
   padding: 0;
-  padding-top: 29px;
-  padding-bottom: 28px;
+  padding-top: 31px;
+  padding-bottom: 29px;
   padding-left: 139px;
   padding-right: 140px;
-  outline:none;
+  outline: none;
 }
 
 .find {
   font-size: 21px;
-  line-height: 25px;
+  line-height: 26px;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -654,7 +658,7 @@ input[type="radio"].visually-hidden {
 .modal-search {
   background-color: #f9f9f9;
   background-image: url("../img/map.jpg");
-  padding-bottom: 79px;
+  padding-bottom: 77px;
 
 }
 
@@ -666,7 +670,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   margin-left: 316px;
   flex-wrap: wrap;
-  padding-bottom: 58px;
+  padding-bottom: 57px;
 
 }
 
@@ -683,7 +687,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   padding: 0;
   margin-right: 10px;
-  margin-top: 12px;
+  margin-top: 13px;
 
 }
 
@@ -903,17 +907,21 @@ input[type="radio"].visually-hidden {
   padding: 0px;
   border: 0px;
   margin-right: 55px;
-  padding-left: 15px;
-  padding-right: 185px;
+  padding-left: 13px;
+  padding-right: 187px;
   outline: none;
 
 }
 
 .arrival label {
-  padding-top: 7px;
+  padding-top: 9px;
 
 }
 
+.arrival input:active {
+  border: 2px black;
+
+}
 
 .departure {
   display: flex;
@@ -932,14 +940,27 @@ input[type="radio"].visually-hidden {
   padding: 0px;
   border: 0px;
   margin-right: 55px;
-  padding-left: 15px;
-  padding-right: 185px;
+  padding-left: 13px;
+  padding-right: 187px;
   outline: none;
 
 }
 
+.departure input:active {
+
+  border: 2px solid #e5e5e5;
+
+}
+
+.arrival input:active {
+
+  border: 2px solid #e5e5e5;
+
+}
+
+
 .departure label {
-  padding-top: 7px;
+  padding-top: 9px;
 
 }
 
@@ -954,13 +975,13 @@ input[type="radio"].visually-hidden {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 34px;
+  padding-top: 35px;
   padding-bottom: 34px;
 
 }
 
 .adults-kids label {
-  margin-top: 6px;
+  margin-top: 7px;
 
 }
 
@@ -970,8 +991,8 @@ input[type="radio"].visually-hidden {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  padding-left: 15px;
-  outline:none;
+  padding-left: 16px;
+  outline: none;
 
 }
 
@@ -990,8 +1011,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .kids label {
-  margin-left: 50px;
-  margin-right: 32px;
+  margin-left: 55px;
+  margin-right: 25px;
 
 }
 
@@ -1012,7 +1033,7 @@ justify-content: center;
   width: 150px;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-left: 24px;
+  margin-left: 25px;
 
 }
 .social-button {
@@ -1340,7 +1361,7 @@ justify-content: center;
   padding: 0;
   padding-left: 50px;
   padding-right: 50px;
-  padding-top: 20px;
+  padding-top: 22px;
 
 }
 
@@ -1349,7 +1370,7 @@ justify-content: center;
   padding: 0;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 20px;
+  padding-top: 21px;
 
 }
 
@@ -1457,7 +1478,7 @@ justify-content: center;
 
 
 .reasone-item p {
-  padding-top: 8px;
+  padding-top: 7px;
 
 }
 
@@ -1597,7 +1618,7 @@ justify-content: center;
 
 .copyright {
   text-align: center;
-  margin-right: 50px;
+  margin-right: 48px;
   display: flex;
 
 }
@@ -1605,7 +1626,7 @@ justify-content: center;
 .academy {
   margin: 0px;
   padding: 0px;
-  margin-top: 2px;
+  margin-top: 4px;
   margin-right: 51px;
 }
 
